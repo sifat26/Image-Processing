@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-image=cv2.imread("image/asadia.jpeg")
+image=cv2.imread("image/kids.tif")
 gray=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 blurred=cv2.GaussianBlur(gray,(5,5),0)
 edge=cv2.Canny(blurred,50,150)
