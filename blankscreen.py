@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img=cv2.imread("image/colour.jpg")
+img=cv2.imread("image/kids.tif")
 cv2.imshow("Kids",img)
 blank=np.zeros(img.shape[:2],dtype='uint8')
 b,g,r=cv2.split(img)
