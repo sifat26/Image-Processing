@@ -1,6 +1,6 @@
 import cv2
 import matplotlib.pyplot as plt
-img= cv2.imread("image/colour.jpg")
+img= cv2.imread("image/5.jpg")
 cv2.imshow("image",img)
 
 gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
