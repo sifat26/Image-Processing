@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-image=cv2.imread('image/lena_color.tiff',cv2.IMREAD_GRAYSCALE)
+image=cv2.imread('image/5.jpg',cv2.IMREAD_GRAYSCALE)
 threshold_value=128
 max_value=255
 _, thresholded_image=cv2.threshold(image,threshold_value,max_value,cv2.THRESH_BINARY)
