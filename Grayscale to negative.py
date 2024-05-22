@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread("image/kids.tif",0)
+img = cv2.imread("image/5.jpg",0)
 row=img.shape[0]
 col=img.shape[1]
 ##binary=img.copy()
